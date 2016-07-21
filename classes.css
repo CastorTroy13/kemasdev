@@ -1,0 +1,157 @@
+/* dd_date_control */
+input.ddDate10Characters
+{
+ width: 10ex;
+ position: absolute;
+ left: 200px;
+}
+
+input.ddDate7Characters
+{
+ width: 7ex;
+ position: absolute;
+ left: 200px;
+}
+
+/*dd_toolbar_class*/
+div.ddToolbarClass
+{
+ background-color: #C8C8C8;
+ border-style: groove;
+ border-color: #0066FF;
+}
+
+div.ddToolbarItemDIV
+{
+ background-color: white;
+}
+
+div.ddToolbarItem
+{
+ text-align: center;
+ font-weight: bold;
+}
+
+div.ddToolbarItem:hover
+{
+ color: #0033FF;
+ cursor: pointer;
+}
+
+div.ddToolbarItem img:hover
+{
+ border-color: #0033FF;
+}
+
+span.ddToolbarButton
+{
+ background-color: #0066FF;
+ color: white;
+ border-style: outset;
+ border-color: grey;
+ cursor: pointer;
+ font-weight: bold;
+}
+
+span.ddToolbarButton:hover
+{
+ background-color: grey;
+ color: white;
+}
+
+/*dd_calendar*/
+div.dd_calendar_holiday
+{
+ color: red;
+}
+ 
+div.dd_calendar
+{
+ font-size: 13px;
+}
+
+div.dd_calendar_header
+{
+ background-image: url(../img/gradient5.jpg);
+ background-repeat: repeat-x;
+ border-radius: 10px;
+ font-weight: bold;
+ color: white;
+}
+
+div.dd_calendar_day:hover, div.dd_calendar_holiday:hover
+{
+ background-color: blue;
+ color: white;
+ cursor: pointer;
+}
+ 
+div.dd_calendar_today
+{
+ background-color: black;
+ color: white;
+}
+
+/*dd_tab*/
+div.dd_tab_body_item
+{
+ visibility: hidden;
+}
+ 
+span.dd_tab_title_item
+{
+ float: left;
+ padding: 5px 10px 5px 10px;
+ background-color: white;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ cursor: pointer;
+ border: 3px groove black;
+}
+ 
+span.dd_tab_title_item:hover
+{
+ font-weight: bold;
+}
+ 
+span.dd_tab_title_item_onfocus
+{
+ float: left;
+ padding: 5px 10px 9px 10px;
+ background-color: white;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ cursor: pointer;
+ border: 3px groove black;
+ border-bottom: 0px;
+ font-weight: bold;
+}
+ 
+span.dd_tab_title_item_onfocus:hover
+{
+ font-weight: bold;
+}
+ 
+div.dd_tab_body
+{
+ background-color: white;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ border-top-right-radius: 10px;
+ border: 3px groove black;
+ height: 570px;
+}
+ 
+div.dd_tab_body_item
+{
+ position: absolute;
+ left: 20px;
+ top: 80px;
+ line-height: 25px;
+}
+
+br.dd_tab_space
+{
+ line-height: 33px;
+}
+/*dd_tab*/
